@@ -12,6 +12,7 @@ def print_birthdays():
 def return_birthday(name): 
     '''Comment the function.'''
     if name in birthdays:
-    print('{}\'s birthday is {}.'.format(name, birthdays[name])) else:
-    print('Sadly, we don\'t have {}\'s birthday.'.format(name))
+        print('{}\'s birthday is {}.'.format(name, birthdays[name])) 
+    else:
+        print('Sadly, we don\'t have {}\'s birthday.'.format(name))
 
